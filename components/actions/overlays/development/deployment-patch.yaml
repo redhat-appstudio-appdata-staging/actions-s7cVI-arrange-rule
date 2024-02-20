@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jkhelil-tenant/actions/actions@sha256:78ba7803d7c628efe18e21d3963015407a972366eb66e4493d0dff12e7b475a2
+      - image: quay.io/redhat-user-workloads-stage/jkhelil-tenant/actions/actions@sha256:39edc4a21aea48cd3a422d86f91d390a916e5c9be83c8862b3120a2bcbf10c3d
         name: container-image
         resources: {}
 status: {}
