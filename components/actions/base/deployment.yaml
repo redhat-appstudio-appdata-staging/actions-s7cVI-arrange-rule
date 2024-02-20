@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: actions
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jkhelil-tenant/actions/actions@sha256:78ba7803d7c628efe18e21d3963015407a972366eb66e4493d0dff12e7b475a2
         imagePullPolicy: Always
         name: container-image
         ports:
