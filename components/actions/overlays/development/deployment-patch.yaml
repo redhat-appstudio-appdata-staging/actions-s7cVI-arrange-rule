@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: actions
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jkhelil-tenant/actions/actions@sha256:78ba7803d7c628efe18e21d3963015407a972366eb66e4493d0dff12e7b475a2
+        name: container-image
+        resources: {}
+status: {}
